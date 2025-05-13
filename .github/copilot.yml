@@ -1,0 +1,16 @@
+# Copilot instruction file to guide GitHub Copilot in the context of the Flutter game project
+
+version: 1
+rules:
+  - description: The project is a 2D grid-based color strategy game built in Flutter.
+  - description: The game simulates wave-like color spreading on a grid from user-defined sources.
+  - description: Use Flutter's CustomPainter or the Flame engine to handle rendering.
+  - description: Each grid cell has a state (color, owner, speed modifier, obstacle, etc.).
+  - description: The game loop should support multiple players (human or AI).
+  - description: The UI should display the grid, allow player taps to place source cells, and animate color flow.
+  - description: Game logic involves spreading color outward from placed sources each frame until all cells are filled or blocked.
+  - description: Support game modes like Classic, Battle, Power Mode, and Puzzle.
+  - description: Use Riverpod or Bloc for state management, with a well-structured folder layout for models, logic, and UI.
+  - description: Support animations and sound effects for player feedback.
+  - description: Game should work across Android, iOS, and Web.
+  - description: Avoid copying external game assets, use custom or open-licensed artwork only.
