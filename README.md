@@ -38,9 +38,8 @@ A 2D color strategy game built with Flutter where players conquer a dynamic grid
 ## 🧩 Tech Stack
 
 - **Framework**: Flutter (3.x+)
-- **State Management**: GetX
 - **Game Engine**: Custom 2D logic / Optional `flame` for enhancements
-- **State Management**: Riverpod or Bloc
+- **State Management**: GetX
 - **Rendering**: `CustomPainter` or Flame canvas
 - **Audio**: `audioplayers` or `just_audio`
 - **Persistence**: `shared_preferences` or `hive`
